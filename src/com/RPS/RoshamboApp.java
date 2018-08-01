@@ -47,6 +47,7 @@ public class RoshamboApp {
 
 			cont = Validator.getString(scan, "Play again? (y/n) ");
 		}
+		System.out.println("Thanks for playing!");
 		scan.close();
 	}
 
@@ -66,7 +67,7 @@ public class RoshamboApp {
 			// all other combos returns user as winner
 		} else {
 
-			return userName + " wins! Win score = \" + count";
+			return userName + " wins!";
 		}
 
 
